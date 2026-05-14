@@ -56,7 +56,7 @@ let numWordsGenerated = 10;
 let firstWord = wordObjectArr[Math.floor(Math.random() * wordObjectArr.length)];
 let currentWord = firstWord;
 for(var i = 0; i < numWordsGenerated; i++){
-    //console.log(currentWord.word);
+    console.log(currentWord.word);
     
     //frequency of next words array randomly generated
     let nextWordsArr = Object.values(currentWord.nextWords);
